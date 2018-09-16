@@ -12,6 +12,14 @@ public class MinFinder {
         }
     }
 
+    /***
+     * Returns the index of the smallest element according to the postion passed
+     * as argument.
+     * @param array Array from the which, get the index.
+     * @param position Position from the smallest, means 0 the smallest element
+     * and n the biggest one.
+     * @return The index of that smallest value (according to the position).
+     */
     public int findMinimum (int[] array, int position) {
         if (position < array.length) {
             int index = 0;
@@ -32,8 +40,8 @@ public class MinFinder {
     }
 }
 
-
 /* -------------- OUTPUT --------------
 Index of the 1 smallest element is 6
 Index of the 2 smallest element is 8
-Index of the 3 smallest element is 2 */
+Index of the 3 smallest element is 2
+---------------------------------------*/
